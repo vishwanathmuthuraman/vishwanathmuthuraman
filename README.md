@@ -21,8 +21,8 @@ const vish = {
         databases: ["SQLserver", "MySql", "sqlite"],
         misc: ["requests", "selenium"]
     },
-    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
-    currentFocus: "Building Robots to ease opertations",
+    
+    currentFocus: "Machine Learning with a special interest in Bento ML",
     funFact: "There are two ways to write error-free programs; only the third one works"
 };
 ```
