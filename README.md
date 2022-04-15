@@ -11,7 +11,7 @@
 </em></p>
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/misteranmol?label=Follow)](https://twitter.com/intent/follow?screen_name=vishwanathmuth1)
-[![Linkedin: anmol](https://img.shields.io/badge/-anmol-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vishwanath-muthuraman/)](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/)
+[![Linkedin: anmol](https://img.shields.io/badge/-Vish-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vishwanath-muthuraman/)](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/)
 ![GitHub followers](https://img.shields.io/github/followers/vishwanathmuthuraman?label=Follow&style=social)
 ![](https://visitor-badge.glitch.me/badge?page_id=vishwanathmuthuraman.vishwanathmuthuraman)
 
