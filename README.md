@@ -14,7 +14,7 @@
 const vish = {
     pronouns: "He" | "Him",
     code: ["Python", "Java", "R" ,"SQL"],
-    askMeAbout: ["web dev", "tech", "app dev", "photography"],
+    askMeAbout: ["Machine Learning", "Exploratory data analysis", "Time series", "API"],
     technologies: {
       
         devOps: ["AWS", "Docker🐳"],
