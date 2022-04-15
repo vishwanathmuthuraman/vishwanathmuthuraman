@@ -4,6 +4,18 @@
 - 💞️ I’m looking to collaborate on current or future projects , any help or support is more than welcome
 - 📫 Email - vishwanathmuthuraman19@gmail.com 
 
+----------
+
+
+</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p>
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/misteranmol?label=Follow)](https://twitter.com/intent/follow?screen_name=vishwanathmuth1)
+[![Linkedin: anmol](https://img.shields.io/badge/-anmol-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vishwanath-muthuraman/)](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/)
+![GitHub followers](https://img.shields.io/github/followers/vishwanathmuthuraman?label=Follow&style=social)
+![](https://visitor-badge.glitch.me/badge?page_id=vishwanathmuthuraman.vishwanathmuthuraman)
+
+
 
 ### 📫 Like to meet me?
 
@@ -32,8 +44,8 @@ const anmol = {
         mobileApp: {
             native: ["Android Development"]
         },
-        devOps: ["AWS", "Docker🐳", "Route53", "Nginx"],
-        databases: ["mongo", "MySql", "sqlite"],
+        devOps: ["AWS", "Docker🐳"],
+        databases: ["SQLserver", "MySql", "sqlite"],
         misc: ["Firebase", "Socket.IO", "selenium", "open-cv", "php", "SuiteApp"]
     },
     architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
@@ -42,7 +54,7 @@ const anmol = {
 };
 ```
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>i love making connections </b> so feel free to dm me <b>hi, i'd be more than happy to connect with you</b> 😊</em>
 
 ---
 <!---
