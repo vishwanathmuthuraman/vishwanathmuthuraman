@@ -34,7 +34,7 @@ const vish = {
 };
 ```
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>i love making connections </b> so feel free to dm me <b>hi, i'd be more than happy to connect with you</b> 😊</em>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>i love making connections and meeting like minded people </b> so feel free to dm me <b>i'd be more than happy to connect with you</b> 😊</em>
 
 ---
 <!---
