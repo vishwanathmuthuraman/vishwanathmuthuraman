@@ -20,7 +20,7 @@
 ```javascript
 const vish = {
     pronouns: "He" | "Him",
-    code: ["Python", "Java", "R" ,"SQL"],
+    code: ["Python", "R" ,"SQL"],
     askMeAbout: ["Machine Learning", "Exploratory data analysis", "Time series", "API"],
     technologies: {
       
