@@ -25,7 +25,7 @@ const vish = {
     technologies: {
       
         devOps: ["AWS", "Docker🐳"],
-        databases: ["SQLserver", "MySql", "sqlite"],
+        databases: ["Bigquery", "Redshift", "AzureDB"],
         misc: ["requests", "selenium"]
     },
     
