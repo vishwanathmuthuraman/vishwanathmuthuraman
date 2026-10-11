@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-labelledby="title">
+  <title id="title">Research index 04</title>
+  <rect width="180" height="180" fill="#f3efe7"/>
+  <path d="M14 29V14H29M151 14H166V29M14 151V166H29M151 166H166V151" fill="none" stroke="#ccc5b9" stroke-width="1"/>
+  <path d="M30 44H150" stroke="#ccc5b9" stroke-width="1"/>
+  <text x="90" y="140" text-anchor="middle" fill="#b54a26" font-family="Georgia, 'Times New Roman', serif" font-size="111" letter-spacing="-6">04</text>
+</svg>

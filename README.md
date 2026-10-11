@@ -1,9 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-dark-mobile.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/profile-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
-  <img alt="Vishwanath Muthuraman — Engineering better decisions. Data, AI systems and technical delivery." src="assets/profile-light.svg" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/editorial/hero-mobile.svg">
+  <img alt="Vishwanath Muthuraman — Engineering better decisions. Data, AI systems and technical delivery." src="assets/editorial/hero.png" width="100%">
 </picture>
 
 # Vishwanath Muthuraman
@@ -18,7 +15,13 @@ My current research focus: how AI workflows should respond when evidence changes
 
 [Start here](#featured-research-question) · [Projects](#public-research-workspace) · [Technical notes](#technical-notes) · [Background](#engineering-with-the-wider-picture)
 
-## Featured research question
+<a name="featured-research-question"></a>
+<h2><picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-01-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-01-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-01-dark.svg">
+  <img alt="Featured research question" src="assets/editorial/section-01-light.svg" width="100%">
+</picture></h2>
 
 > **An action was approved. The facts changed. Should it still happen?**
 >
@@ -26,72 +29,111 @@ My current research focus: how AI workflows should respond when evidence changes
 >
 > [Explore Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab) · [Inspect the proposed architecture](https://github.com/vishwanathmuthuraman/decision-change-lab/blob/main/docs/02-architecture.md)
 
-## Public research workspace
+<a name="public-research-workspace"></a>
+<h2><picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-02-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-02-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-02-dark.svg">
+  <img alt="Public research workspace" src="assets/editorial/section-02-light.svg" width="100%">
+</picture></h2>
 
 **Current stage:** research specifications, synthetic examples and documentation checks. Application implementation and measured evaluation are planned. Badges report documentation workflow status.
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="64" valign="top">
 <a href="https://github.com/vishwanathmuthuraman/decision-change-lab"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/decision-dark.svg">
-<img alt="Decision Systems" src="assets/decision-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-01-dark.svg">
+  <img alt="Project 01" src="assets/editorial/project-01-light.svg" width="64">
 </picture></a>
-<h3><a href="https://github.com/vishwanathmuthuraman/decision-change-lab">Decision Change Lab ↗</a></h3>
+</td>
+<td valign="top">
+<h3><a href="https://github.com/vishwanathmuthuraman/decision-change-lab">Decision Change Lab</a></h3>
 <p>Which approved decisions need another review when the facts behind them change?</p>
 <p><code>Evidence dependencies</code> <code>Revalidation</code></p>
 <p><a href="https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for decision-change-lab" src="https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="64" valign="top">
 <a href="https://github.com/vishwanathmuthuraman/erp-agent"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/erp-dark.svg">
-<img alt="Agent Reliability" src="assets/erp-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-02-dark.svg">
+  <img alt="Project 02" src="assets/editorial/project-02-light.svg" width="64">
 </picture></a>
-<h3><a href="https://github.com/vishwanathmuthuraman/erp-agent">ERP Agent Testbench ↗</a></h3>
+</td>
+<td valign="top">
+<h3><a href="https://github.com/vishwanathmuthuraman/erp-agent">ERP Agent Testbench</a></h3>
 <p>How should an agent behave when an ERP workflow retries, partially fails or changes underneath it?</p>
 <p><code>Failure scenarios</code> <code>Recovery</code></p>
 <p><a href="https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for erp-agent" src="https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 </tr>
+</table>
+
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="64" valign="top">
 <a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/finance-dark.svg">
-<img alt="Financial Evidence" src="assets/finance-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-03-dark.svg">
+  <img alt="Project 03" src="assets/editorial/project-03-light.svg" width="64">
 </picture></a>
-<h3><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator">Finance Exception Investigator ↗</a></h3>
+</td>
+<td valign="top">
+<h3><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator">Finance Exception Investigator</a></h3>
 <p>Trace financial mismatches to their source records and produce explanations a reviewer can check.</p>
 <p><code>Reconciliation</code> <code>Provenance</code></p>
 <p><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for finance-exception-investigator" src="https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="64" valign="top">
 <a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/agency-dark.svg">
-<img alt="Delivery Systems" src="assets/agency-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-04-dark.svg">
+  <img alt="Project 04" src="assets/editorial/project-04-light.svg" width="64">
 </picture></a>
-<h3><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator">Agency Delivery Orchestrator ↗</a></h3>
+</td>
+<td valign="top">
+<h3><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator">Agency Delivery Orchestrator</a></h3>
 <p>Keep scope, approvals and delivery connected as client requirements and campaign inputs change.</p>
 <p><code>Workflow design</code> <code>Human review</code></p>
 <p><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for agency-delivery-orchestrator" src="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 </tr>
+</table>
+
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="64" valign="top">
 <a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/transaction-dark.svg">
-<img alt="Transaction Research" src="assets/transaction-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-05-dark.svg">
+  <img alt="Project 05" src="assets/editorial/project-05-light.svg" width="64">
 </picture></a>
-<h3><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab">Transaction Fraud Lab ↗</a></h3>
+</td>
+<td valign="top">
+<h3><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab">Transaction Fraud Lab</a></h3>
 <p>Study suspicious-payment ranking when feedback arrives late and reviewers have limited capacity.</p>
 <p><code>Temporal evaluation</code> <code>Review budgets</code></p>
 <p><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for Transaction-Fraud-Lab" src="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="64" valign="top">
 <a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/ledger-dark.svg">
-<img alt="Accounting Research" src="assets/ledger-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-06-dark.svg">
+  <img alt="Project 06" src="assets/editorial/project-06-light.svg" width="64">
 </picture></a>
-<h3><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab">Ledger Integrity Lab ↗</a></h3>
+</td>
+<td valign="top">
+<h3><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab">Ledger Integrity Lab</a></h3>
 <p>Turn unusual accounting patterns into reviewable evidence, with explicit uncertainty and context.</p>
 <p><code>Accounting integrity</code> <code>Anomaly research</code></p>
 <p><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for Ledger-Integrity-Lab" src="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
@@ -99,7 +141,13 @@ My current research focus: how AI workflows should respond when evidence changes
 </tr>
 </table>
 
-## Technical notes
+<a name="technical-notes"></a>
+<h2><picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-03-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-03-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-03-dark.svg">
+  <img alt="Technical notes" src="assets/editorial/section-03-light.svg" width="100%">
+</picture></h2>
 
 Selected design notes and evaluation protocols from the research workspace:
 
@@ -107,7 +155,13 @@ Selected design notes and evaluation protocols from the research workspace:
 - [Testing an ERP workflow beyond its final state](https://github.com/vishwanathmuthuraman/erp-agent/blob/main/docs/04-evaluation.md) — retries, partial execution and failure detection.
 - [Evaluating fraud signals when labels arrive late](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/blob/main/docs/04-evaluation.md) — time cutoffs, unresolved outcomes and reviewer capacity.
 
-## Engineering, with the wider picture
+<a name="engineering-with-the-wider-picture"></a>
+<h2><picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-04-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-04-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-04-dark.svg">
+  <img alt="Engineering, with the wider picture" src="assets/editorial/section-04-light.svg" width="100%">
+</picture></h2>
 
 | Area | My focus |
 | :--- | :--- |
@@ -117,7 +171,13 @@ Selected design notes and evaluation protocols from the research workspace:
 
 I hold a **Master's in Management from the University of Illinois Urbana-Champaign**, with a **minor in Risk Management**. That perspective informs how I connect engineering decisions to delivery, cost and operational risk.
 
-## How I approach a problem
+<a name="how-i-approach-a-problem"></a>
+<h2><picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-05-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-05-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-05-dark.svg">
+  <img alt="How I approach a problem" src="assets/editorial/section-05-light.svg" width="100%">
+</picture></h2>
 
 **Define the decision → establish a baseline → test the failure cases → measure the tradeoffs.**
 
