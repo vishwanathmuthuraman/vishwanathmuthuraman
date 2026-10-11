@@ -8,3 +8,4 @@ This is the public GitHub profile repository. Keep the README focused on the own
 - Update project descriptions when real evidence supports a status change. Do not invent qualifications, awards, impact, customers or benchmarks.
 - Keep artwork original and stored in this repository. Preserve accessible text and image alternatives, support both themes, and check relative links before publishing.
 - A profile is a public presentation of the work. Avoid third-party tracking widgets and unnecessary build tooling.
+- Keep animated artwork compatible with reduced-motion preferences and retain a static base illustration. Status badges must link to actual workflows and state their scope. Only show earned achievements verified on the account; do not substitute trophy generators for credentials.

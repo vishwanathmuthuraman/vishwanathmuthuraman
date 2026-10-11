@@ -1,4 +1,6 @@
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-dark-mobile.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/profile-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
   <img alt="Vishwanath Muthuraman — Engineering better decisions. Data, AI systems and technical delivery." src="assets/profile-light.svg" width="100%">
@@ -16,49 +18,73 @@ I'm interested in what happens after an AI demo works: changing evidence, unreli
 
 ## Public research workspace
 
-Six connected questions about useful, dependable AI. These repositories currently contain **research specifications, synthetic examples and documentation checks**. Application implementation and measured evaluation are planned.
+Six connected questions about useful, dependable AI. These repositories currently contain **research specifications, synthetic examples and documentation checks**. Application implementation and measured evaluation are planned. The live badges below link to documentation checks; they do not certify algorithm performance.
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub>01 / RELIABLE AI WORKFLOWS</sub>
+<a href="https://github.com/vishwanathmuthuraman/decision-change-lab"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/decision-dark.svg">
+<img alt="Decision Systems" src="assets/decision-light.svg" width="100%">
+</picture></a>
 <h3><a href="https://github.com/vishwanathmuthuraman/decision-change-lab">Decision Change Lab ↗</a></h3>
 <p>Which approved decisions need another review when the facts behind them change?</p>
 <p><code>Evidence dependencies</code> <code>Revalidation</code></p>
+<p><a href="https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for decision-change-lab" src="https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 <td width="50%" valign="top">
-<sub>02 / RELIABLE AI WORKFLOWS</sub>
+<a href="https://github.com/vishwanathmuthuraman/erp-agent"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/erp-dark.svg">
+<img alt="Agent Reliability" src="assets/erp-light.svg" width="100%">
+</picture></a>
 <h3><a href="https://github.com/vishwanathmuthuraman/erp-agent">ERP Agent Testbench ↗</a></h3>
 <p>How should an agent behave when an ERP workflow retries, partially fails or changes underneath it?</p>
 <p><code>Failure scenarios</code> <code>Recovery</code></p>
+<p><a href="https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for erp-agent" src="https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub>03 / OPERATIONAL EVIDENCE</sub>
+<a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/finance-dark.svg">
+<img alt="Financial Evidence" src="assets/finance-light.svg" width="100%">
+</picture></a>
 <h3><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator">Finance Exception Investigator ↗</a></h3>
 <p>Trace financial mismatches to their source records and produce explanations a reviewer can check.</p>
 <p><code>Reconciliation</code> <code>Provenance</code></p>
+<p><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for finance-exception-investigator" src="https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 <td width="50%" valign="top">
-<sub>04 / OPERATIONAL EVIDENCE</sub>
+<a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/agency-dark.svg">
+<img alt="Delivery Systems" src="assets/agency-light.svg" width="100%">
+</picture></a>
 <h3><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator">Agency Delivery Orchestrator ↗</a></h3>
 <p>Keep scope, approvals and delivery connected as client requirements and campaign inputs change.</p>
 <p><code>Workflow design</code> <code>Human review</code></p>
+<p><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for agency-delivery-orchestrator" src="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub>05 / FINANCIAL RISK RESEARCH</sub>
+<a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/transaction-dark.svg">
+<img alt="Transaction Research" src="assets/transaction-light.svg" width="100%">
+</picture></a>
 <h3><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab">Transaction Fraud Lab ↗</a></h3>
 <p>Study suspicious-payment ranking when feedback arrives late and reviewers have limited capacity.</p>
 <p><code>Temporal evaluation</code> <code>Review budgets</code></p>
+<p><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for Transaction-Fraud-Lab" src="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 <td width="50%" valign="top">
-<sub>06 / FINANCIAL RISK RESEARCH</sub>
+<a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/ledger-dark.svg">
+<img alt="Accounting Research" src="assets/ledger-light.svg" width="100%">
+</picture></a>
 <h3><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab">Ledger Integrity Lab ↗</a></h3>
 <p>Turn unusual accounting patterns into reviewable evidence, with explicit uncertainty and context.</p>
 <p><code>Accounting integrity</code> <code>Anomaly research</code></p>
+<p><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for Ledger-Integrity-Lab" src="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
 </td>
 </tr>
 </table>
