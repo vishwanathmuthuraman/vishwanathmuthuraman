@@ -1,153 +1,52 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/editorial/hero-mobile.svg">
-  <img alt="Vishwanath Muthuraman — Engineering better decisions. Data, AI systems and technical delivery." src="assets/editorial/hero.png" width="100%">
-</picture>
-
-# Vishwanath Muthuraman
+# Hey, I'm Vishwanath 👋
 
 **Lead Data Engineer · AI systems · Technical delivery**
 
 I build data platforms and AI systems, and lead technical delivery. My experience spans enterprise pipelines, cloud infrastructure, analytics and revenue attribution.
 
+<p align="center">
+  <a href="https://github.com/vishwanathmuthuraman?tab=overview"><img src="https://ghchart.rshah.org/vishwanathmuthuraman" alt="Vishwanath Muthuraman's public GitHub contribution heatmap" width="663"></a>
+</p>
+
+## My focus
+
 My current research focus: how AI workflows should respond when evidence changes, inputs fail or a decision needs human judgment.
 
-[LinkedIn](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/) &nbsp; / &nbsp; [Medium](https://medium.com/@vishwanathmuthuraman19) &nbsp; / &nbsp; [Email](mailto:vishwanathmuthuraman19@gmail.com)
+**An action was approved. The facts changed. Should it still happen?**
 
-[Start here](#featured-research-question) · [Projects](#public-research-workspace) · [Technical notes](#technical-notes) · [Background](#engineering-with-the-wider-picture)
+A supplier changes a price or is placed on hold after an order amendment is approved. Which decisions need another review before execution?
 
-<a name="featured-research-question"></a>
-<h2><picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-01-dark-mobile.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-01-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-01-dark.svg">
-  <img alt="Featured research question" src="assets/editorial/section-01-light.svg" width="100%">
-</picture></h2>
+[Explore Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab) · [Inspect the proposed architecture](https://github.com/vishwanathmuthuraman/decision-change-lab/blob/main/docs/02-architecture.md)
 
-> **An action was approved. The facts changed. Should it still happen?**
->
-> A supplier changes a price or is placed on hold after an order amendment is approved. Which decisions need another review before execution?
->
-> [Explore Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab) · [Inspect the proposed architecture](https://github.com/vishwanathmuthuraman/decision-change-lab/blob/main/docs/02-architecture.md)
-
-<a name="public-research-workspace"></a>
-<h2><picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-02-dark-mobile.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-02-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-02-dark.svg">
-  <img alt="Public research workspace" src="assets/editorial/section-02-light.svg" width="100%">
-</picture></h2>
+## Research projects
 
 **Current stage:** research specifications, synthetic examples and documentation checks. Application implementation and measured evaluation are planned. Badges report documentation workflow status.
 
-<table width="100%">
-<tr>
-<td width="64" valign="top">
-<a href="https://github.com/vishwanathmuthuraman/decision-change-lab"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-01-dark.svg">
-  <img alt="Project 01" src="assets/editorial/project-01-light.svg" width="64">
-</picture></a>
-</td>
-<td valign="top">
-<h3><a href="https://github.com/vishwanathmuthuraman/decision-change-lab">Decision Change Lab</a></h3>
-<p>Which approved decisions need another review when the facts behind them change?</p>
-<p><code>Evidence dependencies</code> <code>Revalidation</code></p>
-<p><a href="https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for decision-change-lab" src="https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
-</td>
-</tr>
-</table>
+- **[Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml) — Which approved decisions need another review when the facts behind them change?
 
-<table width="100%">
-<tr>
-<td width="64" valign="top">
-<a href="https://github.com/vishwanathmuthuraman/erp-agent"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-02-dark.svg">
-  <img alt="Project 02" src="assets/editorial/project-02-light.svg" width="64">
-</picture></a>
-</td>
-<td valign="top">
-<h3><a href="https://github.com/vishwanathmuthuraman/erp-agent">ERP Agent Testbench</a></h3>
-<p>How should an agent behave when an ERP workflow retries, partially fails or changes underneath it?</p>
-<p><code>Failure scenarios</code> <code>Recovery</code></p>
-<p><a href="https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for erp-agent" src="https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
-</td>
-</tr>
-</table>
+  `Evidence dependencies` · `Revalidation`
 
-<table width="100%">
-<tr>
-<td width="64" valign="top">
-<a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-03-dark.svg">
-  <img alt="Project 03" src="assets/editorial/project-03-light.svg" width="64">
-</picture></a>
-</td>
-<td valign="top">
-<h3><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator">Finance Exception Investigator</a></h3>
-<p>Trace financial mismatches to their source records and produce explanations a reviewer can check.</p>
-<p><code>Reconciliation</code> <code>Provenance</code></p>
-<p><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for finance-exception-investigator" src="https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
-</td>
-</tr>
-</table>
+- **[ERP Agent Testbench](https://github.com/vishwanathmuthuraman/erp-agent)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml) — How should an agent behave when an ERP workflow retries, partially fails or changes underneath it?
 
-<table width="100%">
-<tr>
-<td width="64" valign="top">
-<a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-04-dark.svg">
-  <img alt="Project 04" src="assets/editorial/project-04-light.svg" width="64">
-</picture></a>
-</td>
-<td valign="top">
-<h3><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator">Agency Delivery Orchestrator</a></h3>
-<p>Keep scope, approvals and delivery connected as client requirements and campaign inputs change.</p>
-<p><code>Workflow design</code> <code>Human review</code></p>
-<p><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for agency-delivery-orchestrator" src="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
-</td>
-</tr>
-</table>
+  `Failure scenarios` · `Recovery`
 
-<table width="100%">
-<tr>
-<td width="64" valign="top">
-<a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-05-dark.svg">
-  <img alt="Project 05" src="assets/editorial/project-05-light.svg" width="64">
-</picture></a>
-</td>
-<td valign="top">
-<h3><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab">Transaction Fraud Lab</a></h3>
-<p>Study suspicious-payment ranking when feedback arrives late and reviewers have limited capacity.</p>
-<p><code>Temporal evaluation</code> <code>Review budgets</code></p>
-<p><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for Transaction-Fraud-Lab" src="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
-</td>
-</tr>
-</table>
+- **[Finance Exception Investigator](https://github.com/vishwanathmuthuraman/finance-exception-investigator)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml) — Trace financial mismatches to their source records and produce explanations a reviewer can check.
 
-<table width="100%">
-<tr>
-<td width="64" valign="top">
-<a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/project-06-dark.svg">
-  <img alt="Project 06" src="assets/editorial/project-06-light.svg" width="64">
-</picture></a>
-</td>
-<td valign="top">
-<h3><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab">Ledger Integrity Lab</a></h3>
-<p>Turn unusual accounting patterns into reviewable evidence, with explicit uncertainty and context.</p>
-<p><code>Accounting integrity</code> <code>Anomaly research</code></p>
-<p><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml"><img alt="Documentation integrity workflow for Ledger-Integrity-Lab" src="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml/badge.svg?branch=main"></a></p>
-</td>
-</tr>
-</table>
+  `Reconciliation` · `Provenance`
 
-<a name="technical-notes"></a>
-<h2><picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-03-dark-mobile.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-03-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-03-dark.svg">
-  <img alt="Technical notes" src="assets/editorial/section-03-light.svg" width="100%">
-</picture></h2>
+- **[Agency Delivery Orchestrator](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml) — Keep scope, approvals and delivery connected as client requirements and campaign inputs change.
+
+  `Workflow design` · `Human review`
+
+- **[Transaction Fraud Lab](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml) — Study suspicious-payment ranking when feedback arrives late and reviewers have limited capacity.
+
+  `Temporal evaluation` · `Review budgets`
+
+- **[Ledger Integrity Lab](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml) — Turn unusual accounting patterns into reviewable evidence, with explicit uncertainty and context.
+
+  `Accounting integrity` · `Anomaly research`
+
+## Technical notes
 
 Selected design notes and evaluation protocols from the research workspace:
 
@@ -155,34 +54,22 @@ Selected design notes and evaluation protocols from the research workspace:
 - [Testing an ERP workflow beyond its final state](https://github.com/vishwanathmuthuraman/erp-agent/blob/main/docs/04-evaluation.md) — retries, partial execution and failure detection.
 - [Evaluating fraud signals when labels arrive late](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/blob/main/docs/04-evaluation.md) — time cutoffs, unresolved outcomes and reviewer capacity.
 
-<a name="engineering-with-the-wider-picture"></a>
-<h2><picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-04-dark-mobile.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-04-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-04-dark.svg">
-  <img alt="Engineering, with the wider picture" src="assets/editorial/section-04-light.svg" width="100%">
-</picture></h2>
+## Background
 
-| Area | My focus |
-| :--- | :--- |
-| Data engineering | Python, SQL, Spark, dbt, cloud data platforms, data modeling |
-| AI systems | Evaluation design, evidence provenance, workflow reliability, failure analysis |
-| Technical delivery | Requirements, project management, stakeholder coordination, risk and tradeoffs |
+- **Data engineering:** Python, SQL, Spark, dbt, cloud data platforms, data modeling.
+- **AI systems:** Evaluation design, evidence provenance, workflow reliability, failure analysis.
+- **Technical delivery:** Requirements, project management, stakeholder coordination, risk and tradeoffs.
 
 I hold a **Master's in Management from the University of Illinois Urbana-Champaign**, with a **minor in Risk Management**. That perspective informs how I connect engineering decisions to delivery, cost and operational risk.
 
-<a name="how-i-approach-a-problem"></a>
-<h2><picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/editorial/section-05-dark-mobile.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/editorial/section-05-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial/section-05-dark.svg">
-  <img alt="How I approach a problem" src="assets/editorial/section-05-light.svg" width="100%">
-</picture></h2>
+## How I work
 
 **Define the decision → establish a baseline → test the failure cases → measure the tradeoffs.**
 
 My public work is organized around reproducible experiments, documented assumptions and evidence that another engineer can inspect. Financial risk signals are prompts for qualified human review.
 
----
+## Connect
 
 Interested in reliable AI, data platforms or the practical work of delivering them? [Let's connect.](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/)
+
+[![LinkedIn](assets/connect/linkedin.svg)](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/) [![Medium](assets/connect/medium.svg)](https://medium.com/@vishwanathmuthuraman19) [![Email](assets/connect/email.svg)](mailto:vishwanathmuthuraman19@gmail.com)
