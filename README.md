@@ -20,7 +20,7 @@ A supplier changes a price or is placed on hold after an order amendment is appr
 
 ## Research projects
 
-**Current stage:** research specifications, synthetic examples and documentation checks. Application implementation and measured evaluation are planned. Badges report documentation workflow status.
+**Current stage:** runnable offline components, synthetic examples and behavioral tests. Each public repo includes installation commands, captured demo output and completed/next tasks. Full workflows, trained models and measured research evaluation remain planned. Badges below report documentation workflow status; each repo also has separate implementation checks.
 
 - **[Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml) — Which approved decisions need another review when the facts behind them change?
 
