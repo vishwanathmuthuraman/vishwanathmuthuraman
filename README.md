@@ -10,15 +10,25 @@
 
 **Lead Data Engineer · AI systems · Technical delivery**
 
-I build data platforms and AI systems, and lead the work that turns them into dependable products. My experience spans enterprise pipelines, cloud infrastructure, analytics and revenue attribution.
+I build data platforms and AI systems, and lead technical delivery. My experience spans enterprise pipelines, cloud infrastructure, analytics and revenue attribution.
 
-I'm interested in what happens after an AI demo works: changing evidence, unreliable inputs, operational failures and the decisions that need human judgment.
+My current research focus: how AI workflows should respond when evidence changes, inputs fail or a decision needs human judgment.
 
 [LinkedIn](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/) &nbsp; / &nbsp; [Medium](https://medium.com/@vishwanathmuthuraman19) &nbsp; / &nbsp; [Email](mailto:vishwanathmuthuraman19@gmail.com)
 
+[Start here](#featured-research-question) · [Projects](#public-research-workspace) · [Technical notes](#technical-notes) · [Background](#engineering-with-the-wider-picture)
+
+## Featured research question
+
+> **An action was approved. The facts changed. Should it still happen?**
+>
+> A supplier changes a price or is placed on hold after an order amendment is approved. Which decisions need another review before execution?
+>
+> [Explore Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab) · [Inspect the proposed architecture](https://github.com/vishwanathmuthuraman/decision-change-lab/blob/main/docs/02-architecture.md)
+
 ## Public research workspace
 
-Six connected questions about useful, dependable AI. These repositories currently contain **research specifications, synthetic examples and documentation checks**. Application implementation and measured evaluation are planned. The live badges below link to documentation checks; they do not certify algorithm performance.
+**Current stage:** research specifications, synthetic examples and documentation checks. Application implementation and measured evaluation are planned. Badges report documentation workflow status.
 
 <table>
 <tr>
@@ -88,6 +98,14 @@ Six connected questions about useful, dependable AI. These repositories currentl
 </td>
 </tr>
 </table>
+
+## Technical notes
+
+Selected design notes and evaluation protocols from the research workspace:
+
+- [Binding an approval to the facts it depends on](https://github.com/vishwanathmuthuraman/decision-change-lab/blob/main/docs/02-architecture.md) — versioned evidence, changed facts and the final execution check.
+- [Testing an ERP workflow beyond its final state](https://github.com/vishwanathmuthuraman/erp-agent/blob/main/docs/04-evaluation.md) — retries, partial execution and failure detection.
+- [Evaluating fraud signals when labels arrive late](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/blob/main/docs/04-evaluation.md) — time cutoffs, unresolved outcomes and reviewer capacity.
 
 ## Engineering, with the wider picture
 
