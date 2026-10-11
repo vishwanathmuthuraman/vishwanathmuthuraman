@@ -1,44 +1,84 @@
-<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Howdy , I am Vishwanath Muthuraman! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
-<p><em>Data Scientist <a href="https://www.cialfo.co/en-in/home">Plotpointe
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
+  <img alt="Vishwanath Muthuraman — Engineering better decisions. Data, AI systems and technical delivery." src="assets/profile-light.svg" width="100%">
+</picture>
 
+# Vishwanath Muthuraman
 
+**Lead Data Engineer · AI systems · Technical delivery**
 
-----------
+I build data platforms and AI systems, and lead the work that turns them into dependable products. My experience spans enterprise pipelines, cloud infrastructure, analytics and revenue attribution.
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/misteranmol?label=Follow)](https://twitter.com/intent/follow?screen_name=vishwanathmuth1)
-[![Linkedin: anmol](https://img.shields.io/badge/-Vish-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vishwanath-muthuraman/)](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/)
-![GitHub followers](https://img.shields.io/github/followers/vishwanathmuthuraman?label=Follow&style=social)
-![](https://visitor-badge.glitch.me/badge?page_id=vishwanathmuthuraman.vishwanathmuthuraman)
-    
-    
-</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-</em></p>
+I'm interested in what happens after an AI demo works: changing evidence, unreliable inputs, operational failures and the decisions that need human judgment.
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+[LinkedIn](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/) &nbsp; / &nbsp; [Medium](https://medium.com/@vishwanathmuthuraman19) &nbsp; / &nbsp; [Email](mailto:vishwanathmuthuraman19@gmail.com)
 
-```javascript
-const vish = {
-    pronouns: "He" | "Him",
-    code: ["Python", "R" ,"SQL"],
-    askMeAbout: ["Machine Learning", "Exploratory data analysis", "Time series", "API"],
-    technologies: {
-      
-        devOps: ["AWS", "Docker🐳"],
-        databases: ["Bigquery", "Redshift", "AzureDB"],
-        misc: ["requests", "selenium"]
-    },
-    
-    currentFocus: "Machine Learning with a special interest in Bento ML",
-    funFact: "There are two ways to write error-free programs; only the third one works"
-};
-```
+## Public research workspace
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>i love making connections and meeting like minded people </b> so feel free to dm me <b>i'd be more than happy to connect with you</b> 😊</em>
+Six connected questions about useful, dependable AI. These repositories currently contain **research specifications, synthetic examples and documentation checks**. Application implementation and measured evaluation are planned.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>01 / RELIABLE AI WORKFLOWS</sub>
+<h3><a href="https://github.com/vishwanathmuthuraman/decision-change-lab">Decision Change Lab ↗</a></h3>
+<p>Which approved decisions need another review when the facts behind them change?</p>
+<p><code>Evidence dependencies</code> <code>Revalidation</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>02 / RELIABLE AI WORKFLOWS</sub>
+<h3><a href="https://github.com/vishwanathmuthuraman/erp-agent">ERP Agent Testbench ↗</a></h3>
+<p>How should an agent behave when an ERP workflow retries, partially fails or changes underneath it?</p>
+<p><code>Failure scenarios</code> <code>Recovery</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>03 / OPERATIONAL EVIDENCE</sub>
+<h3><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator">Finance Exception Investigator ↗</a></h3>
+<p>Trace financial mismatches to their source records and produce explanations a reviewer can check.</p>
+<p><code>Reconciliation</code> <code>Provenance</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>04 / OPERATIONAL EVIDENCE</sub>
+<h3><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator">Agency Delivery Orchestrator ↗</a></h3>
+<p>Keep scope, approvals and delivery connected as client requirements and campaign inputs change.</p>
+<p><code>Workflow design</code> <code>Human review</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>05 / FINANCIAL RISK RESEARCH</sub>
+<h3><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab">Transaction Fraud Lab ↗</a></h3>
+<p>Study suspicious-payment ranking when feedback arrives late and reviewers have limited capacity.</p>
+<p><code>Temporal evaluation</code> <code>Review budgets</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>06 / FINANCIAL RISK RESEARCH</sub>
+<h3><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab">Ledger Integrity Lab ↗</a></h3>
+<p>Turn unusual accounting patterns into reviewable evidence, with explicit uncertainty and context.</p>
+<p><code>Accounting integrity</code> <code>Anomaly research</code></p>
+</td>
+</tr>
+</table>
+
+## Engineering, with the wider picture
+
+| Area | My focus |
+| :--- | :--- |
+| Data engineering | Python, SQL, Spark, dbt, cloud data platforms, data modeling |
+| AI systems | Evaluation design, evidence provenance, workflow reliability, failure analysis |
+| Technical delivery | Requirements, project management, stakeholder coordination, risk and tradeoffs |
+
+I hold a **Master's in Management from the University of Illinois Urbana-Champaign**, with a **minor in Risk Management**. That perspective informs how I connect engineering decisions to delivery, cost and operational risk.
+
+## How I approach a problem
+
+**Define the decision → establish a baseline → test the failure cases → measure the tradeoffs.**
+
+My public work is organized around reproducible experiments, documented assumptions and evidence that another engineer can inspect. Financial risk signals are prompts for qualified human review.
 
 ---
-<!---
-vishwanathmuthuraman/vishwanathmuthuraman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
 
+Interested in reliable AI, data platforms or the practical work of delivering them? [Let's connect.](https://www.linkedin.com/in/vishwanath-annamalai-muthuraman-8640ab11b/)
