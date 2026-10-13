@@ -4,9 +4,18 @@
 
 I build data platforms and AI systems, and lead technical delivery. My experience spans enterprise pipelines, cloud infrastructure, analytics and revenue attribution.
 
-<p align="center">
-  <a href="https://github.com/vishwanathmuthuraman?tab=overview"><img src="https://ghchart.rshah.org/vishwanathmuthuraman" alt="Vishwanath Muthuraman's public GitHub contribution heatmap" width="663"></a>
-</p>
+<table>
+<tr>
+<td align="center" width="33%"><a href="https://github.com/vishwanathmuthuraman/decision-change-lab"><img src="assets/projects/decisionlatch.svg" width="64" height="64" alt="DecisionLatch logo"><br><strong>DecisionLatch</strong></a><br>Decision revalidation research</td>
+<td align="center" width="33%"><a href="https://github.com/vishwanathmuthuraman/erp-agent"><img src="assets/projects/retryharbor.svg" width="64" height="64" alt="RetryHarbor logo"><br><strong>RetryHarbor</strong></a><br>ERP agent reliability research</td>
+<td align="center" width="33%"><a href="https://github.com/vishwanathmuthuraman/finance-exception-investigator"><img src="assets/projects/reconciletrail.svg" width="64" height="64" alt="ReconcileTrail logo"><br><strong>ReconcileTrail</strong></a><br>Financial reconciliation research</td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab"><img src="assets/projects/paytelltale.svg" width="64" height="64" alt="PayTelltale logo"><br><strong>PayTelltale</strong></a><br>Payment fraud detection research</td>
+<td align="center" width="33%"><a href="https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab"><img src="assets/projects/entrysift.svg" width="64" height="64" alt="EntrySift logo"><br><strong>EntrySift</strong></a><br>Accounting anomaly research</td>
+<td align="center" width="33%"><a href="https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator"><img src="assets/projects/followlane.svg" width="64" height="64" alt="Followlane logo"><br><strong>Followlane</strong></a><br>AI project coordination research</td>
+</tr>
+</table>
 
 ## My focus
 
@@ -16,33 +25,33 @@ My current research focus: how AI workflows should respond when evidence changes
 
 A supplier changes a price or is placed on hold after an order amendment is approved. Which decisions need another review before execution?
 
-[Explore Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab) · [Inspect the proposed architecture](https://github.com/vishwanathmuthuraman/decision-change-lab/blob/main/docs/02-architecture.md)
+[Explore DecisionLatch](https://github.com/vishwanathmuthuraman/decision-change-lab) · [Inspect the proposed architecture](https://github.com/vishwanathmuthuraman/decision-change-lab/blob/main/docs/02-architecture.md)
 
 ## Research projects
 
 **Current stage:** runnable offline components, synthetic examples and behavioral tests. Each public repo includes installation commands, captured demo output and completed/next tasks. Full workflows, trained models and measured research evaluation remain planned. Badges below report documentation workflow status; each repo also has separate implementation checks.
 
-- **[Decision Change Lab](https://github.com/vishwanathmuthuraman/decision-change-lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml) — Which approved decisions need another review when the facts behind them change?
+- **[DecisionLatch](https://github.com/vishwanathmuthuraman/decision-change-lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/decision-change-lab/actions/workflows/docs.yml) — Which approved decisions need another review when the facts behind them change?
 
   `Evidence dependencies` · `Revalidation`
 
-- **[ERP Agent Testbench](https://github.com/vishwanathmuthuraman/erp-agent)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml) — How should an agent behave when an ERP workflow retries, partially fails or changes underneath it?
+- **[RetryHarbor](https://github.com/vishwanathmuthuraman/erp-agent)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/erp-agent/actions/workflows/docs.yml) — How should an agent behave when an ERP workflow retries, partially fails or changes underneath it?
 
   `Failure scenarios` · `Recovery`
 
-- **[Finance Exception Investigator](https://github.com/vishwanathmuthuraman/finance-exception-investigator)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml) — Trace financial mismatches to their source records and produce explanations a reviewer can check.
+- **[ReconcileTrail](https://github.com/vishwanathmuthuraman/finance-exception-investigator)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/finance-exception-investigator/actions/workflows/docs.yml) — Trace financial mismatches to their source records and produce explanations a reviewer can check.
 
   `Reconciliation` · `Provenance`
 
-- **[Agency Delivery Orchestrator](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml) — Keep scope, approvals and delivery connected as client requirements and campaign inputs change.
+- **[Followlane](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/agency-delivery-orchestrator/actions/workflows/docs.yml) — Keep scope, approvals and delivery connected as client requirements and campaign inputs change.
 
   `Workflow design` · `Human review`
 
-- **[Transaction Fraud Lab](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml) — Study suspicious-payment ranking when feedback arrives late and reviewers have limited capacity.
+- **[PayTelltale](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/Transaction-Fraud-Lab/actions/workflows/docs.yml) — Study suspicious-payment ranking when feedback arrives late and reviewers have limited capacity.
 
   `Temporal evaluation` · `Review budgets`
 
-- **[Ledger Integrity Lab](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml) — Turn unusual accounting patterns into reviewable evidence, with explicit uncertainty and context.
+- **[EntrySift](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab)** [![Documentation integrity](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/vishwanathmuthuraman/Ledger-Integrity-Lab/actions/workflows/docs.yml) — Turn unusual accounting patterns into reviewable evidence, with explicit uncertainty and context.
 
   `Accounting integrity` · `Anomaly research`
 
