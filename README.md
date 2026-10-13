@@ -60,7 +60,7 @@ Selected design notes and evaluation protocols from the research workspace:
 - **AI systems:** Evaluation design, evidence provenance, workflow reliability, failure analysis.
 - **Technical delivery:** Requirements, project management, stakeholder coordination, risk and tradeoffs.
 
-I hold a **Master's in Management from the University of Illinois Urbana-Champaign**, with a **minor in Risk Management**. That perspective informs how I connect engineering decisions to delivery, cost and operational risk.
+I am pursuing a **Master's in Management at the University of Illinois Urbana-Champaign**, with a **minor in Risk Management**. That perspective informs how I connect engineering decisions to delivery, cost and operational risk.
 
 ## How I work
 
